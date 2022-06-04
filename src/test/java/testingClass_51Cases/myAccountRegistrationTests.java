@@ -18,6 +18,7 @@ MyAccountRegistrationPage mar = new MyAccountRegistrationPage();
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 		BaseClass.getDriver();
+		Thread.sleep(2000);
 		BaseClass.getDriver().navigate().back();
 		BaseClass.getDriver().navigate().forward();
 		mar.myAccountMenu.click();
