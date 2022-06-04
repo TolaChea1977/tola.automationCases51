@@ -15,7 +15,6 @@ public class MyAccountLoginPage extends CommonMethods {
 	
 	@FindBy (xpath = "//a[normalize-space()='My Account']")
 	public WebElement myAccountMenu;
-
 	@FindBy(id = "")
 	public WebElement shopButton;
 

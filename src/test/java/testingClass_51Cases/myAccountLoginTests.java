@@ -16,25 +16,31 @@ public class myAccountLoginTests {
 		Thread.sleep(2000);
 		my.myAccountMenu.click();
 		
-//		BaseClass.getDriver().navigate().back();
-//		BaseClass.getDriver().navigate().forward();
-		
 	}
 	
 	@Test (enabled = true)
 	public void loginWithUserNameAndPassword() {
 		
-		
+
+		/*
+		4) Enter registered username in username textbox
+		5) Enter password in password textbox
+		6) Click on login button
+		7) User must successfully login to the web page
+		 * */
 		
 	}
 	
-	/*1) Open the browser
-	2) Enter the URL “http://practice.automationtesting.in/”
-	3) Click on My Account Menu
-	4) Enter registered username in username textbox
-	5) Enter password in password textbox
-	6) Click on login button
-	7) User must successfully login to the web page
+	
+	/* 1. Log-in with valid username and password.
+ 2. Log-in with incorrect username and incorrect password.
+ 3. Log-in with correct username and empty password.
+ 4. Log-in with empty username and valid password.
+ 5. Log-in with empty username and empty password.
+ 6. Log-in -Password should be masked
+ 7. Login-Handles case sensitive
+ 8. Login-Authentication
+
 	 * */
 
 }
