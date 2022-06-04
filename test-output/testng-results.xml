@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-04T10:50:17 EDT" name="Default suite" finished-at="2022-06-04T10:50:24 EDT" duration-ms="7148">
+  <suite started-at="2022-06-04T12:35:59 EDT" name="Default suite" finished-at="2022-06-04T12:36:04 EDT" duration-ms="4828">
     <groups>
     </groups>
-    <test started-at="2022-06-04T10:50:17 EDT" name="Default test" finished-at="2022-06-04T10:50:24 EDT" duration-ms="7148">
+    <test started-at="2022-06-04T12:35:59 EDT" name="Default test" finished-at="2022-06-04T12:36:04 EDT" duration-ms="4828">
       <class name="testingClass_51Cases.myAccountRegistrationTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@7c2a69b4]" started-at="2022-06-04T10:50:17 EDT" name="setUp" finished-at="2022-06-04T10:50:24 EDT" duration-ms="7022" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@3d7fa3ae]" started-at="2022-06-04T12:35:59 EDT" name="setUp" finished-at="2022-06-04T12:36:04 EDT" duration-ms="4695" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -16,8 +16,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-J4MDNS6', ip: '192.168.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53bc0a3ae2563cf6353fc511ade68967
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2d1a0f7e9e7dcfb156b26eabe55b815
 *** Element info: {Using=xpath, value=//a[normalize-space()='My Account']}]]>
             </message>
             <full-stacktrace>
@@ -27,8 +27,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-J4MDNS6', ip: '192.168.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53bc0a3ae2563cf6353fc511ade68967
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2d1a0f7e9e7dcfb156b26eabe55b815
 *** Element info: {Using=xpath, value=//a[normalize-space()='My Account']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -47,7 +47,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy11.click(Unknown Source)
-at testingClass_51Cases.myAccountRegistrationTests.setUp(myAccountRegistrationTests.java:23)
+at testingClass_51Cases.myAccountRegistrationTests.setUp(myAccountRegistrationTests.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,7 +86,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationSignIn()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@7c2a69b4]" started-at="2022-06-04T10:50:24 EDT" name="registrationSignIn" finished-at="2022-06-04T10:50:24 EDT" duration-ms="1" status="SKIP">
+        <test-method signature="registrationSignIn()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@3d7fa3ae]" started-at="2022-06-04T12:36:04 EDT" name="registrationSignIn" finished-at="2022-06-04T12:36:04 EDT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -95,8 +95,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-J4MDNS6', ip: '192.168.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53bc0a3ae2563cf6353fc511ade68967
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2d1a0f7e9e7dcfb156b26eabe55b815
 *** Element info: {Using=xpath, value=//a[normalize-space()='My Account']}]]>
             </message>
             <full-stacktrace>
@@ -106,8 +106,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-J4MDNS6', ip: '192.168.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53bc0a3ae2563cf6353fc511ade68967
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\TOLACH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2d1a0f7e9e7dcfb156b26eabe55b815
 *** Element info: {Using=xpath, value=//a[normalize-space()='My Account']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -126,7 +126,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy11.click(Unknown Source)
-at testingClass_51Cases.myAccountRegistrationTests.setUp(myAccountRegistrationTests.java:23)
+at testingClass_51Cases.myAccountRegistrationTests.setUp(myAccountRegistrationTests.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,7 +165,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@7c2a69b4]" started-at="2022-06-04T10:50:24 EDT" name="tearDown" finished-at="2022-06-04T10:50:24 EDT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingClass_51Cases.myAccountRegistrationTests@3d7fa3ae]" started-at="2022-06-04T12:36:04 EDT" name="tearDown" finished-at="2022-06-04T12:36:04 EDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
